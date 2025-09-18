@@ -6,6 +6,31 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+*.env
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+# Ignore FAISS index directory
+faiss_index/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
 # Distribution / packaging
 .Python
 build/
